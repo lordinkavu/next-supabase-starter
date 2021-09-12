@@ -9,7 +9,7 @@ export default function Home() {
         <meta name="description" content="a simple rss reader" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main></main>
+      <main>hello world!</main>
     </div>
   );
 }
