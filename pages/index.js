@@ -1,15 +1,18 @@
 import Head from "next/head";
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>read-ing</title>
-        <meta name="description" content="a simple rss reader" />
+        <title>next-app</title>
+        <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>hello world!</main>
+      <Link href="/auth" passHref>
+        <button>auth</button>
+      </Link>
     </div>
   );
 }
